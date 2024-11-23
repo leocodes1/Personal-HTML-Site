@@ -26,7 +26,7 @@ An Examples folder demonstrating HTML skills (table and form examples).
 
 ## __Project Structure__
 
-personal-webpage/<be>
+personal-webpage/<br>
 │<br>
 ├── index.html        <br>
 ├── about.html        <br>
