@@ -39,3 +39,4 @@ personal-webpage/
 │   ├── table.html    # Table example
 │   └── form.html     # Form example
 └── style.css         # CSS stylesheet for styling the pages
+
