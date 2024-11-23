@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Example</title>
+    <link href="../index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../ContactMe.html">Contact Me</a></li>
+                <li>
+                    <a href="../examples/index.html">Examples</a>
+                    <ul>
+                        <li><a href="../examples/table.html">Table</a></li>
+                        <li><a href="../examples/form.html">Form</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../gallery/index.html">Photo Gallery</a>
+                    <ul>
+                        <li><a href="../gallery/photo1.html">Photo 1</a></li>
+                        <li><a href="../gallery/photo2.html">Photo 2</a></li>
+                        <li><a href="../gallery/photo3.html">Photo 3</a></li>
+                        <!-- Add more photo links as needed -->
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Origin</legend>
+            <label for="birthday">Birthday:</label>
+            <input type="text" id="birthday" name="birthday" placeholder="mm/dd/yyyy">
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country">
+        </fieldset>
+
+        <fieldset>
+            <legend>Interests <span style="font-style: italic;">(Choose as many as you want)</span></legend>
+            <label>
+                <input type="checkbox" name="interests" value="Skiing"> Skiing
+            </label><br>
+            <label>
+                <input type="checkbox" name="interests" value="Biking"> Biking
+            </label><br>
+            <label>
+                <input type="checkbox" name="interests" value="Running"> Running
+            </label><br>
+            <label>
+                <input type="checkbox" name="interests" value="Sleeping"> Sleeping
+            </label><br>
+            <label>
+                <input type="checkbox" name="interests" value="Reading"> Reading
+            </label><br>
+
+            <label for="sleeping">Interest level in competitive sleeping:</label><br>
+            <span class="slider-label">Low</span>
+            <input type="range" id="sleeping" name="sleeping" min="1" max="10">
+            <span class="slider-label">High</span>
+        </fieldset>
+
+        <fieldset>
+            <legend>Class</legend>
+            <label>
+                <input type="radio" name="class" value="Freshman"> Freshman
+            </label><br>
+            <label>
+                <input type="radio" name="class" value="Sophomore"> Sophomore
+            </label><br>
+            <label>
+                <input type="radio" name="class" value="Junior"> Junior
+            </label><br>
+            <label>
+                <input type="radio" name="class" value="Senior"> Senior
+            </label><br><br>
+
+            <label for="graduation">Graduation Year:</label>
+            <select id="graduation" name="graduation">
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+            </select>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+    <!--Footer with Copyright-->
+    <footer><small>&#64; Leo Hu 2024</small></footer>
+</body>
+</html>
