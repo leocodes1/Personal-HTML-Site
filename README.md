@@ -26,8 +26,8 @@ An Examples folder demonstrating HTML skills (table and form examples).
 
 Project Structure
 
-personal-webpage/
-│
+personal-webpage/<br>
+│<br>
 ├── index.html        # Main webpage file<br>
 ├── about.html        # About Me page<br>
 ├── resume.html       # Resume page<br>
