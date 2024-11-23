@@ -10,7 +10,7 @@ __Features__
 * Gallery: A collection of 3 images showcasing personal interests and milestones.
 * Examples Folder: Includes a simple table and a form to demonstrate HTML and CSS skills.
 
-__Usage__
+__Usage__  
 To view this project :
 
 Ensure you have all project files locally.
