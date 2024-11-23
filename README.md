@@ -11,10 +11,10 @@ This project is a personal webpage created using HTML and CSS to showcase inform
 * Examples Folder: Includes a simple table and a form to demonstrate HTML and CSS skills.
 
 ## __Usage__  
-To view this project :
+To view this project :  
 
 Ensure you have all project files locally.
-Open the index.html file in your preferred web browser.
+Open the index.html file in your preferred web browser.  
 
 The webpage contains:
 
@@ -26,7 +26,7 @@ An Examples folder demonstrating HTML skills (table and form examples).
 
 ## __Project Structure__
 
-personal-webpage/<br>
+personal-webpage/<be>
 │<br>
 ├── index.html        <br>
 ├── about.html        <br>
