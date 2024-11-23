@@ -1,0 +1,86 @@
+nav, nav ul, nav li{
+	margin:0;
+	padding:0;
+}
+nav ul{
+	list-style:none;
+	float:left;
+	width:100%;
+}
+nav ul li{
+	float:left;
+	position:relative;
+}
+nav ul a{
+	display:block;
+	padding:6px 32px;
+	color:#000;
+	background:#ccc;
+	text-decoration:none;
+	border-bottom: 2px solid black;
+}
+nav ul ul{
+	background:#fff; 
+	position:absolute;
+	left:-9999px; 
+}
+nav ul ul li{
+	float:none;
+}
+nav ul li:hover ul{ 
+	left:0; 
+}
+nav ul li:hover a{ 
+	background:#888;
+}
+nav ul li:hover ul li a:hover{ 
+	color:#fff;
+	background:#444;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #f0f0f0;
+}
+header, footer {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+table, th, td {
+border:2px solid grey;
+}
+
+h1 {
+    font-size: 34px; /* Sets the font size */
+    text-transform: uppercase; /* Converts the text to uppercase */
+}
+h2 {
+    font-size: 30px; /* Sets the font size */
+    text-transform: uppercase; /* Converts the text to uppercase */
+}
+h3 {
+    font-size: 26px; /* Sets the font size */
+	text-decoration: underline; /* Underlines the text */
+	padding: 10px;
+}
+p {
+    font-size: 16px; /* Sets the font size */
+	padding-left: 20px;
+}
+.thumbnail {
+	width: 500px; /* Set the desired width for the thumbnails */
+	height: auto; /* Maintain the aspect ratio */
+}
+form{
+	width: 600px;
+}
+a {
+	padding-left: 20px;	
+}
+img {
+	width: 100%; 
+	max-width: 600px;
+}

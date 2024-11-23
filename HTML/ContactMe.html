@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me Form </title>
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="ContactMe.html">Contact Me</a></li>
+                <li>
+                    <a href="examples/index.html">Examples</a>
+                    <ul>
+                        <li><a href="examples/table.html">Table</a></li>
+                        <li><a href="examples/form.html">Form</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gallery/index.html">Photo Gallery</a>
+                    <ul>
+                        <li><a href="gallery/photo1.html">Photo 1</a></li>
+                        <li><a href="gallery/photo2.html">Photo 2</a></li>
+                        <li><a href="gallery/photo3.html">Photo 3</a></li>
+                        <!-- Add more photo links as needed -->
+                    </ul>
+                </li>
+            </ul>
+            </nav>
+        </header>
+        <!--Contact Form-->
+        <form action="https://wp.zybooks.com/form-viewer.php">
+            <!--Field for First Name-->
+            <p>
+                <label for= "first">First name:</label>
+                <input type="text" id="first" name="first" required>
+            </p>
+            <!--Field for Last Name-->
+            <p>
+                <label for="last">Last Name:</label>
+                <input type="text" id="last" name="last" required>
+            </p>
+            <!--Field for Email Adress-->
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="name@domain.com" required>
+            </p>
+            <!--Field for Message-->
+            <p>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Add your message here!" rows="2" cols="20"></textarea>
+            </p>
+            <!--Submit Button-->
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+        <!--Footer with Copyright-->
+        <footer><small>&#64; Leo Hu 2024</small></footer>        
+    </body>
+</html>
