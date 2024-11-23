@@ -28,15 +28,15 @@ Project Structure
 
 personal-webpage/
 │
-├── index.html        # Main webpage file
-├── about.html        # About Me page
-├── resume.html       # Resume page
-├── gallery/          # Folder with images
-│   ├── photo1.jpg
-│   ├── photo2.jpg
-│   └── photo3.jpg
-├── examples/         # Folder with example table and form
-│   ├── table.html    # Table example
-│   └── form.html     # Form example
-└── style.css         # CSS stylesheet for styling the pages
+├── index.html        # Main webpage file<br>
+├── about.html        # About Me page<br>
+├── resume.html       # Resume page<br>
+├── gallery/          # Folder with images<br>
+│   ├── photo1.jpg<br>
+│   ├── photo2.jpg<br>
+│   └── photo3.jpg<br>
+├── examples/         # Folder with example table and form<br>
+│   ├── table.html    # Table example<br>
+│   └── form.html     # Form example<br>
+└── style.css         # CSS stylesheet for styling the pages<br>
 
